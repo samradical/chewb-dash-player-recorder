@@ -1,0 +1,13 @@
+bower_components
+node_modules
+*.log
+.DS_Store
+*.obj
+*.mp4
+*.png
+assets
+npm-debug.log.*
+www-assets
+frontend/dist/assets/images
+frontend/dist/assets/json
+frontend/dist/assets/svg
