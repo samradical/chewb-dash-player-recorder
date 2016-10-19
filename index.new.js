@@ -14,11 +14,12 @@ export default class DashRecorder {
 		})
 
 		this.socket.on('rad:recorder:frame:success', (response) => {
-			//this._saveNextVideoChunk()
+			this._saveNextVideoChunk()
 		})
 
 		this.socket.on('rad:recorder:audio:success', (response) => {
-			//this._saveNextAudioChunk()
+			console.log("Uploaded audio");
+			this._saveNextAudioChunk()
 		})
 
 		this._events = {}
