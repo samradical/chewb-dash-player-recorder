@@ -1,20 +1,20 @@
 {
-  "name": "@samelie/dash-player-recorder",
+  "name": "chewb-dash-player-recorder",
   "description": "",
-  "homepage": "https://github.com/samelie/dash-player-recorder",
+  "homepage": "https://github.com/samelie/chewb-dash-player-recorder",
   "author": "Sam Elie <samradelie@gmail.com>",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/samelie/dash-player-recorder.git",
-    "web": "https://github.com/samelie/dash-player-recorder/"
+    "url": "https://github.com/samelie/chewb-dash-player-recorder.git",
+    "web": "https://github.com/samelie/chewb-dash-player-recorder/"
   },
-  "main": "index.new.js",
+  "main": "index.js",
   "dependencies": {
     "audio-buffer-utils": "^3.1.2"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.3.13",
     "babel-preset-stage-1": "^6.3.13",
     "babelify": "^7.2.0",
@@ -40,7 +40,7 @@
     "mpd"
   ],
   "bugs": {
-    "url": "https://github.com/samelie/dash-player-recorder/issues"
+    "url": "https://github.com/samelie/chewb-dash-player-recorder/issues"
   },
   "engines": {
     "node": ">=5.0.0"
@@ -48,7 +48,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/samelie/dash-player-recorder/raw/master/LICENSE"
+      "url": "https://github.com/samelie/chewb-dash-player-recorder/raw/master/LICENSE"
     }
   ]
 }
